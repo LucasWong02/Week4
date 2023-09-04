@@ -1,0 +1,13 @@
+Case: Analyzing Customer Wait Times at a Fast Food Restaurant
+
+Suppose you are managing a fast-food restaurant and you want to analyze customer wait times to optimize your operations. You collect data on the time it takes for each customer to place an order and receive their food. You suspect that the wait times follow a complex distribution that may involve multiple components.
+
+MLE for Normal Distribution (Example 1): You start by applying MLE for a normal distribution to estimate the mean and standard deviation of the wait times to get a baseline understanding of the data.
+
+MLE for Exponential Distribution (Example 2): You notice that the distribution of wait times doesn't seem to be purely normal; it has a long tail. To model the tail behavior, you decide to apply MLE for an exponential distribution to estimate the rate parameter (lambda) for the tail of the distribution.
+
+MLE for Mixture of Normals (Example 5): Further analysis reveals that the wait times are better described as a mixture of two components: one for regular customers and another for delivery orders. You apply MLE for a mixture of normals to estimate the parameters (means and standard deviations) for both components, assuming equal weights for the two groups.
+
+MLE for Poisson Distribution (Example 3): You also want to estimate the rate at which customers arrive at your restaurant, i.e., how many customers come in per minute. You apply MLE for a Poisson distribution to estimate this arrival rate.
+
+By applying these different MLE techniques to your dataset, you can gain a comprehensive understanding of the customer wait times at your fast-food restaurant. This allows you to make data-driven decisions to improve service efficiency, staffing, and customer satisfaction.
